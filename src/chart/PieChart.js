@@ -26,6 +26,7 @@ export default generateCategoricalChart({
     cy: '50%',
     innerRadius: 0,
     outerRadius: '80%',
+    dataKey: "value",
   },
   propTypes: {
     layout: PropTypes.oneOf(['centric']),
